@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Curriculum Vitae</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header class="header">
+		<img class="header__image" src="imagen.png" width="150" height="150" alt="Imagen de la persona">
+        <h1 class="header__name">Rocio Agostina Monsalvo</h1>
+		<h2 class="header__career">Desarrolladora de Software</h2>	
+	</header>
+
+	<section class="main">
+		<div class="main__left">
+			<h2 class="left__title">Sobre mí</h2>
+			<p class="left__content"> Desarrolladora de software con experiencia en diseño, instalación, pruebas y mantenimiento de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo. Capaz de autogestión eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo</p>
+			<h2 class="left__title">Contacto</h2>
+			<p class="left__content">Correo electrónico: rocio.monzalvo15@gmail.com </p>
+		</div>
+		<div class="main__right">
+			<h2 class="right__title">Experiencia Laboral</h2>
+			<ul class="right__list">
+				<li class="right__item"> <h3>Desarrolladora de Software</h3></li>
+                <h4> CYXUS, california</h4>
+                <h5> Resolución de problemas complejos utilizando las últimas tecnologías móviles, web y de nube.</h5>
+				<li class="right__item"> <h3>Desarrolladora de software</h3> </li>
+                <h4> Control PRO, Buenos Aires</h4>
+                <h5> Realicé tareas de pruebas automatizadas y desarollé funciones cmplejas de forma rutinaria</h5>
+			
+			</ul>
+			<h2 class="right__title">Estudios</h2>
+			<ul class="right__list">
+				<li class="right__item">Universidad Nacional del Oeste</li>
+				<li class="right__item">Universidad Tecnologias Nacional</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="form">
+		<h2 class="form__title">Contáctame</h2>
+		<form class="form__content" action="enviar.php" method="post">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+			<label for="correo">Correo electrónico:</label>
+			<input type="email" id="correo" name="correo" required>
+			<label for="contraseña">Contraseña:</label>
+			<input type="password" id="contraseña" name="contraseña" required>
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" required></textarea>
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+
+	<footer class="footer">
+		
+		<div class="footer__right">
+			<p class="footer__content">Creado por Rocio Agostina Monsalvo</p>
+		</div>
+	</footer>
+
+</body>
+</html>

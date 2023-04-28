@@ -1,0 +1,150 @@
+*
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96509fa6;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header__name {
+    font-size: 36px;
+    margin-right: 20px;
+  }
+  
+  .header__career {
+    font-size: 24px;
+    margin-right: 80px;
+  }
+  
+  .header__image {
+    border-radius: 0%;
+    margin-right: 20px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .main__left {
+    width: 40%;
+  }
+  
+  .left__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .left__content {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .main__right {
+    width: 55%;
+  }
+  
+  .right__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .right__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .right__item {
+    margin-bottom: 10px;
+  }
+  
+  .right__item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .right__item h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+  
+  .right__item h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  
+
+  .form {
+    background-color: #da0f9c2e;
+    padding: 20px;
+  }
+  
+  .form__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .form__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+  
+  .form__content label {
+    margin-bottom: 5px;
+  }
+  
+  .form__content input,
+  .form__content textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 19px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .form__content input[type="submit"] {
+    background-color: #59345e;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+  
+  .form__content input[type="submit"]:hover {
+    background-color: #754c99;
+  }
+  
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a2544;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .footer__content {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
