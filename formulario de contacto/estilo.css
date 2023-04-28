@@ -106,9 +106,9 @@
   .form__content textarea {
     margin-bottom: 10px;
     padding: 8px;
-    font-size: 19px;
+    font-size: 17px;
     border: none;
-    border-radius: 4px;
+    border-radius: 7px;
   }
   
   .form__content input[type="submit"] {
@@ -117,7 +117,7 @@
     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    border-radius: 3px;
+    border-radius: 19px;
     font-size: 18px;
   }
   
